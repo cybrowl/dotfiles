@@ -4,7 +4,7 @@
 - alacritty (terminal)
 - hammerspoon (keyboard shortcuts)
 - fish (shell type)
-- omf (fish manager)
+- fisher (fish manager)
 - spacefish (theme)
 - neo vim (editor)
 - homebrew (dep manager)
