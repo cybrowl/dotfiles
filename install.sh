@@ -71,6 +71,14 @@ else
   echo "hammerspoon exists" 
 fi
 
+## Node
+if exists node; then
+  echo "installing node"
+  brew install node
+else 
+  echo "node exists" 
+fi
+
 echo "----------------"
 echo "Configs"
 echo "----------------"
