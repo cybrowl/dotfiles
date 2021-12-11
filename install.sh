@@ -58,7 +58,7 @@ fi
 ## Alacritty
 if [ ! -d /Applications/Alacritty.app ]; then
   echo "moving alacritty app to applications"
-  // TODO: copy app to applications
+  # TODO: copy app to applications
 else
   echo "alacritty app exists"
 fi
@@ -78,6 +78,11 @@ if exists node; then
 else 
   echo "node exists" 
 fi
+
+## Install Font
+
+# brew tap homebrew/cask-fonts
+# brew install --cask font-fira-code
 
 echo "----------------"
 echo "Configs"
