@@ -10,10 +10,10 @@ hs.hotkey.bind({"ctrl"}, "q", function()
   hs.application.launchOrFocus("Quiver")
 end)
 
-hs.hotkey.bind({"ctrl"}, "l", function()
+hs.hotkey.bind({"ctrl", "cmd"}, "n", function()
   hs.application.launchOrFocus("GitKraken")
 end)
 
-hs.hotkey.bind({"ctrl"}, "c", function()
+hs.hotkey.bind({"ctrl", "cmd"}, "j", function()
   hs.application.launchOrFocus("Visual Studio Code")
 end)
