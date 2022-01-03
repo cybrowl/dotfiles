@@ -1,12 +1,12 @@
-hs.hotkey.bind({"ctrl"}, "3", function()
+hs.hotkey.bind({"ctrl", "cmd"}, "i", function()
   hs.application.launchOrFocus("Alacritty")
 end)
 
-hs.hotkey.bind({"ctrl"}, "2", function()
+hs.hotkey.bind({"ctrl", "cmd"}, "o", function()
   hs.application.launchOrFocus("Brave Browser")
 end)
 
-hs.hotkey.bind({"ctrl"}, "q", function()
+hs.hotkey.bind({"ctrl", "cmd"}, "p", function()
   hs.application.launchOrFocus("Quiver")
 end)
 
