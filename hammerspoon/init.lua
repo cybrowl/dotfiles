@@ -17,3 +17,7 @@ end)
 hs.hotkey.bind({"ctrl", "cmd"}, "j", function()
   hs.application.launchOrFocus("Visual Studio Code")
 end)
+
+hs.hotkey.bind({"ctrl", "cmd"}, "m", function()
+  hs.application.launchOrFocus("Signal")
+end)
