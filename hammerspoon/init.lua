@@ -6,6 +6,10 @@ hs.hotkey.bind({"ctrl", "cmd"}, "o", function()
   hs.application.launchOrFocus("Brave Browser")
 end)
 
+hs.hotkey.bind({"ctrl", "cmd"}, "d", function()
+  hs.application.launchOrFocus("Discord")
+end)
+
 hs.hotkey.bind({"ctrl", "cmd"}, "p", function()
   hs.application.launchOrFocus("Quiver")
 end)
