@@ -11,11 +11,11 @@ hs.hotkey.bind({"ctrl", "cmd"}, "d", function()
 end)
 
 hs.hotkey.bind({"ctrl", "cmd"}, "p", function()
-  hs.application.launchOrFocus("Quiver")
+  hs.application.launchOrFocus("GitKraken")
 end)
 
 hs.hotkey.bind({"ctrl", "cmd"}, "n", function()
-  hs.application.launchOrFocus("GitKraken")
+  hs.application.launchOrFocus("Quiver")
 end)
 
 hs.hotkey.bind({"ctrl", "cmd"}, "j", function()
