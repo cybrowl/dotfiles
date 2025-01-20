@@ -6,6 +6,6 @@
 - fish (shell type)
 - fisher (fish manager)
 - spacefish (theme)
-- neo vim (editor)
+- zed (editor)
 - homebrew (dep manager)
 - tmux (window/session manager)
