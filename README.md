@@ -9,7 +9,3 @@
 - neo vim (editor)
 - homebrew (dep manager)
 - tmux (window/session manager)
-
-
-TODO: 
-- unix/linux compatible
